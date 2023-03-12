@@ -1,2 +1,5 @@
 # docs.honeypotdb.com
-Documentation on everything HoneypotDB
+
+This is our public documentation hosted at https://docs.honeypotdb.com.
+
+These docs are written in markdown, and built using MkDocs with the Material theme.

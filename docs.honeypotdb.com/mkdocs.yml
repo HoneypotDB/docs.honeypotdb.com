@@ -1,0 +1,62 @@
+site_name: HoneypotDB Documentation
+site_url: https://docs.honeypotdb.com
+site_descripion: HoneypotDB's usage documentation.
+site_author: HoneypotDB
+
+copyright: Copyright 2023 HoneypotDB
+repo_url: https://github.com/HoneypotDB/docs.honeypotdb.com
+theme:
+  logo: https://static.honeypotdb.com/img/logo/logo_white.png
+  name: material
+  highlightjs: true
+  include_homepage_in_sidebar: true
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: hpdb
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: hpdb
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - tables
+
+extra_css:
+    - stylesheets/extra.css
+
+nav:
+
+  - 'Home': 'index.md'
+  - 'Overview':
+    - 'About the platform': overview/about.md
+    - 'Getting started': overview/getting_started.md
+    - 'Using the web UI': overview/using_the_web_ui.md
+
+  - 'Guides and Tutorials':
+    - 'Searching for events': guides/example.md
+    - 'Analyzing the severity of an Indicator': guides/example.md
+    - 'Creating an API key': guides/example.md
+
+  - 'Core Capabilities':
+    - 'Events': capabilities/events.md
+    - 'Score': capabilities/score.md
+    - 'Malware': capabilities/malware.md
+    - 'Monitoring': capabilities/monitoring.md
+
+  - 'Threat Intelligence':
+    - 'Severity Reports': intelligence/severity.md
+    - 'Indicator Lists': intelligence/lists.md
+
+  - 'Honeypots':
+    - 'Our Honeypot Network': 'honeypots/network.md'
+    - 'Types of Honeypots': 'honeypots/types.md'
+
+  - 'Using our APIs': 
+    - 'REST API': rest_api/usage.md
