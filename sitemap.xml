@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://docs.honeypotdb.com/</loc>
+         <lastmod>2023-03-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.honeypotdb.com/capabilities/events/</loc>
+         <lastmod>2023-03-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.honeypotdb.com/rest_api/usage/</loc>
+         <lastmod>2023-03-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
