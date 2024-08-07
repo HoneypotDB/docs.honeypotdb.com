@@ -40,15 +40,13 @@ nav:
     - 'Using the web UI': overview/using_the_web_ui.md
 
   - 'Guides and Tutorials':
-    - 'Searching for events': guides/example.md
-    - 'Analyzing the severity of an Indicator': guides/example.md
-    - 'Creating an API key': guides/example.md
+    - 'Using the Search UI': guides/using_the_search_ui.md
 
   - 'Core Capabilities':
-    - 'Events': capabilities/events.md
-    - 'Score': capabilities/score.md
-    - 'Malware': capabilities/malware.md
-    - 'Monitoring': capabilities/monitoring.md
+    - 'Signals': capabilities/signals.md
+    # - 'Score': capabilities/score.md
+    # - 'Malware': capabilities/malware.md
+    # - 'Monitoring': capabilities/monitoring.md
 
   - 'Threat Intelligence':
     - 'Severity Reports': intelligence/severity.md
@@ -58,5 +56,6 @@ nav:
     - 'Our Honeypot Network': 'honeypots/network.md'
     - 'Types of Honeypots': 'honeypots/types.md'
 
-  - 'Using our APIs': 
-    - 'REST API': rest_api/usage.md
+  - 'Using our APIs':
+    - 'Creating an API key': guides/creating_an_api_key.md
+    - 'Querying with the Search API': guides/querying_with_the_search_api.md
