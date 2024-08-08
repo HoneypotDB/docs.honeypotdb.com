@@ -27,6 +27,15 @@ theme:
 markdown_extensions:
   - admonition
   - tables
+  - md_in_html
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+plugins:
+   - glightbox
 
 extra_css:
     - stylesheets/extra.css
@@ -34,28 +43,27 @@ extra_css:
 nav:
 
   - 'Home': 'index.md'
-  - 'Overview':
-    - 'About the platform': overview/about.md
-    - 'Getting started': overview/getting_started.md
-    - 'Using the web UI': overview/using_the_web_ui.md
 
   - 'Guides and Tutorials':
-    - 'Using the Search UI': guides/using_the_search_ui.md
+    - 'Getting started': guides/getting-started.md
+    # - 'Using the Search UI': guides/using-the-search-ui.md
+    # - 'Creating an API key': guides/creating-an-api-key.md
+    # - 'Querying with the Search API': guides/querying-with-the-search-api.md
 
   - 'Core Capabilities':
-    - 'Signals': capabilities/signals.md
+    - 'Signals': 
+      - 'Overview': 'capabilities/signals/overview.md'
+    - 'Search':
+      - 'Overview': 'capabilities/search/overview.md'
+      - 'Query Langauge': 'capabilities/search/query-language.md'
     # - 'Score': capabilities/score.md
     # - 'Malware': capabilities/malware.md
     # - 'Monitoring': capabilities/monitoring.md
 
-  - 'Threat Intelligence':
-    - 'Severity Reports': intelligence/severity.md
-    - 'Indicator Lists': intelligence/lists.md
+  # - 'Threat Intelligence':
+  #   - 'Severity Reports': intelligence/severity.md
+  #   - 'Indicator Lists': intelligence/lists.md
 
-  - 'Honeypots':
-    - 'Our Honeypot Network': 'honeypots/network.md'
-    - 'Types of Honeypots': 'honeypots/types.md'
-
-  - 'Using our APIs':
-    - 'Creating an API key': guides/creating_an_api_key.md
-    - 'Querying with the Search API': guides/querying_with_the_search_api.md
+  # - 'Honeypots':
+  #   - 'Our Honeypot Network': 'honeypots/network.md'
+  #   - 'Types of Honeypots': 'honeypots/types.md'
