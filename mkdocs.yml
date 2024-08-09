@@ -46,9 +46,9 @@ nav:
 
   - 'Guides and Tutorials':
     - 'Getting started': guides/getting-started.md
-    # - 'Using the Search UI': guides/using-the-search-ui.md
-    # - 'Creating an API key': guides/creating-an-api-key.md
-    # - 'Querying with the Search API': guides/querying-with-the-search-api.md
+    - 'Using the Search UI': guides/using-the-search-ui.md
+    - 'Creating an API key': guides/creating-an-api-key.md
+    - 'Querying with the Search API': guides/querying-with-the-search-api.md
 
   - 'Core Capabilities':
     - 'Signals': 
