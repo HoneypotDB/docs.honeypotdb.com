@@ -48,7 +48,7 @@ From the home page, you may access the profile section. Here you may edit your p
 
 ![API Key Page](/img/api-key-page.png "API Key Page"){ width=600 }
 
-### Next Steps
+## Next Steps
 
 That's it, you're ready to start taking HoneypotDB for a spin. Take a look at the guides below as suggestions on what to do next:
 
